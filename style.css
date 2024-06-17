@@ -1,0 +1,56 @@
+body {
+    font: normal 16px comic sans ms;
+    text-align: center;
+  }
+  
+  #tic-tac-toe {
+    word-spacing: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin: 30px auto;
+  }
+  
+  #tic-tac-toe td {
+    border: 3px solid #000;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font: bold 90px comic sans ms;
+  }
+  
+  #tic-tac-toe tr:first-child td {
+    border-top: none;
+  }
+  
+  #tic-tac-toe tr:last-child td {
+    border-bottom: none;
+  }
+  
+  #tic-tac-toe tr td:first-child {
+    border-left: none;
+  }
+  
+  #tic-tac-toe tr td:last-child {
+    border-right: none;
+  }
+  
+  #tic-tac-toe td.X {
+    color: #0c12b3;
+  }
+  
+  #tic-tac-toe td.O {
+    color: #e80505;
+  }
+  
+  #scoreboard .score {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #scoreboard .score#player1 {
+    color: #ec1017;
+  }
+  
+  #scoreboard .score#player2 {
+    color: #060693;
+  }
